@@ -9,8 +9,6 @@
 
 # dependencies
 /node_modules
-/api/node_modules
-/gatitobook/node_modules
 
 # profiling files
 chrome-profiler-events*.json
@@ -33,6 +31,7 @@ chrome-profiler-events*.json
 .history/*
 
 # misc
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
