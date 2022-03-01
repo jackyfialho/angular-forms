@@ -7,9 +7,10 @@ import { MensagemModule } from './../components/mensagem/mensagem.module';
 
 import { HomeComponent } from './home.component';
 import { LoginComponent } from './components/login/login.component';
+import { NovoUsuarioComponent } from './components/novo-usuario/novo-usuario.component';
 
 @NgModule({
-  declarations: [HomeComponent, LoginComponent],
+  declarations: [HomeComponent, LoginComponent, NovoUsuarioComponent],
   imports: [CommonModule, HomeRoutingModule, FormsModule, MensagemModule],
   exports: [HomeComponent],
 })
