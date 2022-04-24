@@ -5,9 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 
+import { CabecalhoModule } from './components/cabecalho/cabecalho.module';
+import { RodapeModule } from './components/rodape/rodape.module';
+
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    CabecalhoModule,
+    RodapeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
